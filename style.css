@@ -1,0 +1,60 @@
+
+.background {
+  display: flex;
+  background-color: antiquewhite;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 36px;
+
+}
+
+.div-cover {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+  overflow: auto;
+  flex-wrap: wrap;
+}
+
+.cover {
+  display: flex;
+  justify-content: center;
+}
+
+.frog {
+  width: 220px;
+  border: 1px solid yellowgreen;
+  border-radius: 10px;
+}
+
+.me {
+  align-self: flex-end;
+  height: 60px;
+  margin: 5px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 150px;
+  font-size: 30px;
+  color: brown;
+  align-items: center;
+}
+
+.result-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
